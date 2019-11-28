@@ -10,7 +10,7 @@
 
 # Key Advantages of Geometric Brownian Motion (GBM)
 
-•	Expected returns of GBM model are independent of the value of the industry which agrees with what we would expect in reality.
+•	Expected returns of a GBM model are independent of the industry value which agrees with what we would expect in reality.
 
 •	A GBM process only assumes positive values which fits as industry values can’t be negative.
 
