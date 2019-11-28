@@ -16,4 +16,6 @@
 
 •	A GBM process shows the same kind of random effects in its paths that we see in real returns.
 
+# Example Simulation Graph
+
 ![Image of ElcEqSim](https://github.com/jackapbutler/Monte-Carlo-GBM-Industry-Returns/blob/master/Electrical%20Equipment%20Simulation%20Graph.png)
