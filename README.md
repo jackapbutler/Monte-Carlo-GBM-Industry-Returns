@@ -2,7 +2,7 @@
 
 1. I used the log return values instead of real return as the log returns are normally distributed. This statistical property allows me to use a GBM model to simulate future returns.
 
-2. I used a Geometric Brownian Motion model with two terms related to the expected return and standard deviation of each industry. The model was used to simulate future industry returns over a 5 year time horizon.
+2. I used a Geometric Brownian Motion model with two terms related to the expected return and standard deviation of each industry. The simulated returns also feature a random component which simulates random shocks experienced by each industry. This allows the model to accurately capture the trend of the industry while also considering unpredictable risks. The model was used to simulate future industry returns over a 5 year time horizon.
 
 3. The GBM model is a Markov process, meaning "tomorrows” industry return is only dependant on “today’s” industry value and no other time point in the past. It is important to note that the simulated value is consistent with the weak form of the efficient market hypothesis, which assumes past price information has already been incorporated. Specifically, it assumes that price momentum does not exist.
 
