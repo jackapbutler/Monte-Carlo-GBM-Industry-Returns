@@ -8,6 +8,10 @@
 
 3. To display these simulated returns in a more direct manner I assumed a €100 investment in each industry on the 30th September 2019. The valuations are calculated using our simulated log returns for each time period.
 
+# Example Simulation Graph
+
+![Image of ElcEqSim](https://github.com/jackapbutler/Monte-Carlo-GBM-Industry-Returns/blob/master/Electrical%20Equipment%20Simulation%20Graph.png)
+
 # Key Advantages of Geometric Brownian Motion (GBM)
 
 •	Expected returns of GBM models are independent of industry value which agrees with what we would expect in reality.
@@ -15,7 +19,3 @@
 •	A GBM process only assumes positive values which fits as industry values can’t be negative.
 
 •	A GBM process shows the same kind of random effects in its paths that we see in real returns.
-
-# Example Simulation Graph
-
-![Image of ElcEqSim](https://github.com/jackapbutler/Monte-Carlo-GBM-Industry-Returns/blob/master/Electrical%20Equipment%20Simulation%20Graph.png)
