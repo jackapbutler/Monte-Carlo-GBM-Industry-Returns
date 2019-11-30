@@ -1,6 +1,6 @@
 # Monte Carlo GBM Industry Returns Simulations
 
-1. The dataset I used can be found at http://mba.tuck.dartmouth.edu/pages/faculty/ken.french/data_library.html I used the log return values instead of real return as the log returns are normally distributed. This statistical property allows me to use a GBM model to simulate future returns.
+1. The dataset I used can be found at http://mba.tuck.dartmouth.edu/pages/faculty/ken.french/data_library.html. I used the log return values instead of real return as the log returns are normally distributed. This statistical property allows me to use a GBM model to simulate future returns.
 
 2. I used a Geometric Brownian Motion model with two terms related to the expected return and standard deviation of each industry. The simulated returns also feature a random component which simulates random shocks experienced by each industry. This allows the model to accurately capture the trend of the industry while also considering unpredictable risks. The model was used to simulate future industry returns over a 5 year time horizon.
 
